@@ -42,12 +42,12 @@ public class MatrixView extends Canvas{
 				if(status==1) {
 					graphics.setFill(Color.WHITE);
 					graphics.fillRect(posX, posY, 40, 40);
-					graphics.setStroke(Color.BLACK);
+					graphics.setStroke(Color.GRAY);
 					graphics.strokeRect(posX, posY, 40, 40);
 				}else {
 					graphics.setFill(Color.BLACK);
 					graphics.fillRect(posX, posY, 40, 40);
-					graphics.setStroke(Color.BLACK);
+					graphics.setStroke(Color.GRAY);
 					graphics.strokeRect(posX, posY, 40, 40);
 				}
 			}
